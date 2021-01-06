@@ -24,40 +24,91 @@ switch(l5C93C362_0)
 	/// @DnDParent : 5C93C362
 	/// @DnDArgument : "const" ""Attack""
 	case "Attack":
-		/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDAction : YoYo Games.Random.Choose
 		/// @DnDVersion : 1
-		/// @DnDHash : 658039D5
+		/// @DnDHash : 55533A12
+		/// @DnDInput : 2
 		/// @DnDParent : 75F76C43
-		/// @DnDArgument : "xpos_relative" "1"
-		/// @DnDArgument : "ypos_relative" "1"
-		/// @DnDArgument : "var" "newProjectile"
-		/// @DnDArgument : "var_temp" "1"
-		/// @DnDArgument : "objectid" "enem_projectile"
-		/// @DnDSaveInfo : "objectid" "enem_projectile"
-		var newProjectile = instance_create_layer(x + 0, y + 0, "Instances", enem_projectile);
+		/// @DnDArgument : "var" "attack_type"
+		/// @DnDArgument : "option" "1"
+		/// @DnDArgument : "option_1" "2"
+		attack_type = choose(1, 2);
 	
-		/// @DnDAction : YoYo Games.Common.If_Expression
+		/// @DnDAction : YoYo Games.Switch.Switch
 		/// @DnDVersion : 1
-		/// @DnDHash : 16CD0E1F
+		/// @DnDHash : 6B1B0ECA
 		/// @DnDParent : 75F76C43
-		/// @DnDArgument : "expr" "instance_exists(Player_obj)"
-		if(instance_exists(Player_obj))
+		/// @DnDArgument : "expr" "attack_type"
+		var l6B1B0ECA_0 = attack_type;
+		switch(l6B1B0ECA_0)
 		{
-			/// @DnDAction : YoYo Games.Common.Temp_Variable
+			/// @DnDAction : YoYo Games.Switch.Case
 			/// @DnDVersion : 1
-			/// @DnDHash : 778FEB6D
-			/// @DnDParent : 16CD0E1F
-			/// @DnDArgument : "var" "player"
-			/// @DnDArgument : "value" "instance_nearest(x,y,Player_obj)"
-			var player = instance_nearest(x,y,Player_obj);
+			/// @DnDHash : 68B26B59
+			/// @DnDComment : Single Shot
+			/// @DnDParent : 6B1B0ECA
+			/// @DnDArgument : "const" "1"
+			case 1:
+				/// @DnDAction : YoYo Games.Instances.Create_Instance
+				/// @DnDVersion : 1
+				/// @DnDHash : 658039D5
+				/// @DnDParent : 68B26B59
+				/// @DnDArgument : "xpos_relative" "1"
+				/// @DnDArgument : "ypos_relative" "1"
+				/// @DnDArgument : "var" "newProjectile"
+				/// @DnDArgument : "var_temp" "1"
+				/// @DnDArgument : "objectid" "enem_projectile"
+				/// @DnDSaveInfo : "objectid" "enem_projectile"
+				var newProjectile = instance_create_layer(x + 0, y + 0, "Instances", enem_projectile);
+			
+				/// @DnDAction : YoYo Games.Common.If_Expression
+				/// @DnDVersion : 1
+				/// @DnDHash : 16CD0E1F
+				/// @DnDParent : 68B26B59
+				/// @DnDArgument : "expr" "instance_exists(Player_obj)"
+				if(instance_exists(Player_obj))
+				{
+					/// @DnDAction : YoYo Games.Common.Temp_Variable
+					/// @DnDVersion : 1
+					/// @DnDHash : 778FEB6D
+					/// @DnDParent : 16CD0E1F
+					/// @DnDArgument : "var" "player"
+					/// @DnDArgument : "value" "instance_nearest(x,y,Player_obj)"
+					var player = instance_nearest(x,y,Player_obj);
+				
+					/// @DnDAction : YoYo Games.Common.Variable
+					/// @DnDVersion : 1
+					/// @DnDHash : 7A146831
+					/// @DnDParent : 16CD0E1F
+					/// @DnDArgument : "expr" "point_direction(x,y,player.x, player.y)"
+					/// @DnDArgument : "var" "newProjectile.direction"
+					newProjectile.direction = point_direction(x,y,player.x, player.y);
+				}
+				break;
 		
-			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDAction : YoYo Games.Switch.Case
 			/// @DnDVersion : 1
-			/// @DnDHash : 7A146831
-			/// @DnDParent : 16CD0E1F
-			/// @DnDArgument : "expr" "point_direction(x,y,player.x, player.y)"
-			/// @DnDArgument : "var" "newProjectile.direction"
-			newProjectile.direction = point_direction(x,y,player.x, player.y);
+			/// @DnDHash : 341596E2
+			/// @DnDComment : 3 consecutive shots
+			/// @DnDParent : 6B1B0ECA
+			/// @DnDArgument : "const" "2"
+			case 2:
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 58E1C275
+				/// @DnDParent : 341596E2
+				/// @DnDArgument : "expr" "3"
+				/// @DnDArgument : "var" "consecutive_shots"
+				consecutive_shots = 3;
+			
+				/// @DnDAction : YoYo Games.Instances.Set_Alarm
+				/// @DnDVersion : 1
+				/// @DnDHash : 1C08274B
+				/// @DnDParent : 341596E2
+				/// @DnDArgument : "steps" "10"
+				/// @DnDArgument : "alarm" "2"
+				alarm_set(2, 10);
+				break;
 		}
 	
 		/// @DnDAction : YoYo Games.Common.Variable
