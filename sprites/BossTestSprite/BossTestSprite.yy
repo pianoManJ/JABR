@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"62444b91-a2d9-4bc4-bcbf-86daabf00495","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "EnemySprites",
-    "path": "folders/Sprites/EnemySprites.yy",
+    "name": "Boss1",
+    "path": "folders/Sprites/EnemySprites/Boss1.yy",
   },
   "resourceVersion": "1.0",
   "name": "BossTestSprite",

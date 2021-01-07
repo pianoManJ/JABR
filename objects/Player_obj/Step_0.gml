@@ -8,16 +8,16 @@ script_execute(AWSDcontrols);
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
 /// @DnDHash : 383480AA
-/// @DnDArgument : "expr" "instance_exists(Boss1)"
-if(instance_exists(Boss1))
+/// @DnDArgument : "expr" "instance_exists(Boss)"
+if(instance_exists(Boss))
 {
 	/// @DnDAction : YoYo Games.Common.Temp_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 46F54538
 	/// @DnDParent : 383480AA
 	/// @DnDArgument : "var" "boss"
-	/// @DnDArgument : "value" "instance_nearest(x , y, Boss1)"
-	var boss = instance_nearest(x , y, Boss1);
+	/// @DnDArgument : "value" "instance_nearest(x , y, Boss)"
+	var boss = instance_nearest(x , y, Boss);
 
 	/// @DnDAction : YoYo Games.Common.Temp_Variable
 	/// @DnDVersion : 1

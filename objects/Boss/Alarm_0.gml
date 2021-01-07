@@ -1,6 +1,6 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 4E119589
+/// @DnDHash : 5AF2877A
 /// @DnDArgument : "expr" "true"
 /// @DnDArgument : "var" "is_vulnerable"
 is_vulnerable = true;
