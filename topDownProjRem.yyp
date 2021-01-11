@@ -5,7 +5,8 @@
     {"id":{"name":"playerStance2","path":"sprites/playerStance2/playerStance2.yy",},"order":1,},
     {"id":{"name":"Game_Controller","path":"objects/Game_Controller/Game_Controller.yy",},"order":6,},
     {"id":{"name":"playerStance8","path":"sprites/playerStance8/playerStance8.yy",},"order":3,},
-    {"id":{"name":"Room4","path":"rooms/Room4/Room4.yy",},"order":3,},
+    {"id":{"name":"game_2","path":"rooms/game_2/game_2.yy",},"order":3,},
+    {"id":{"name":"tracking_projectile","path":"sprites/tracking_projectile/tracking_projectile.yy",},"order":1,},
     {"id":{"name":"playerStance3","path":"sprites/playerStance3/playerStance3.yy",},"order":5,},
     {"id":{"name":"PlayerStance7","path":"sprites/PlayerStance7/PlayerStance7.yy",},"order":7,},
     {"id":{"name":"game_over","path":"rooms/game_over/game_over.yy",},"order":2,},
@@ -16,6 +17,7 @@
     {"id":{"name":"playerCollision","path":"sprites/playerCollision/playerCollision.yy",},"order":1,},
     {"id":{"name":"game_start","path":"rooms/game_start/game_start.yy",},"order":0,},
     {"id":{"name":"ProjectileShot","path":"scripts/ProjectileShot/ProjectileShot.yy",},"order":0,},
+    {"id":{"name":"tracker_projectile","path":"objects/tracker_projectile/tracker_projectile.yy",},"order":2,},
     {"id":{"name":"sword_swipe","path":"sprites/sword_swipe/sword_swipe.yy",},"order":3,},
     {"id":{"name":"RobotSprite","path":"sprites/RobotSprite/RobotSprite.yy",},"order":0,},
     {"id":{"name":"AWSDcontrols","path":"scripts/AWSDcontrols/AWSDcontrols.yy",},"order":1,},
@@ -28,7 +30,7 @@
     {"id":{"name":"Boss2","path":"objects/Boss2/Boss2.yy",},"order":3,},
     {"id":{"name":"Health","path":"objects/Health/Health.yy",},"order":5,},
     {"id":{"name":"playerSword","path":"sprites/playerSword/playerSword.yy",},"order":2,},
-    {"id":{"name":"game_room","path":"rooms/game_room/game_room.yy",},"order":1,},
+    {"id":{"name":"game_1","path":"rooms/game_1/game_1.yy",},"order":1,},
   ],
   "Options": [
     {"name":"macOS","path":"options/mac/options_mac.yy",},
@@ -43,8 +45,8 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"game_start","path":"rooms/game_start/game_start.yy",},},
-    {"roomId":{"name":"game_room","path":"rooms/game_room/game_room.yy",},},
-    {"roomId":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
+    {"roomId":{"name":"game_1","path":"rooms/game_1/game_1.yy",},},
+    {"roomId":{"name":"game_2","path":"rooms/game_2/game_2.yy",},},
     {"roomId":{"name":"game_over","path":"rooms/game_over/game_over.yy",},},
   ],
   "Folders": [
@@ -72,6 +74,7 @@
     {"folderPath":"folders/Sprites/EnemySprites/Boss1.yy","order":2,"resourceVersion":"1.0","name":"Boss1","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/EnemySprites/Boss2.yy","order":3,"resourceVersion":"1.0","name":"Boss2","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/EnemyScripts.yy","order":2,"resourceVersion":"1.0","name":"EnemyScripts","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/EnemySprites/ProjectileSprites.yy","order":4,"resourceVersion":"1.0","name":"ProjectileSprites","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

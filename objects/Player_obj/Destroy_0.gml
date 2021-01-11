@@ -4,7 +4,9 @@
 /// @DnDApplyTo : {Health}
 with(Health) instance_destroy();
 
-/// @DnDAction : YoYo Games.Rooms.Next_Room
+/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1
-/// @DnDHash : 0DA8F3B8
-room_goto_next();
+/// @DnDHash : 562BED98
+/// @DnDArgument : "room" "game_over"
+/// @DnDSaveInfo : "room" "game_over"
+room_goto(game_over);

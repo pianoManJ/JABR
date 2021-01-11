@@ -43,12 +43,27 @@ switch(l6021DCAA_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 57D5E137
 	/// @DnDParent : 6021DCAA
-	/// @DnDArgument : "const" "game_room"
-	case game_room:
+	/// @DnDArgument : "const" "game_1"
+	case game_1:
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 1B97BEC1
 		/// @DnDParent : 57D5E137
+		/// @DnDArgument : "expr" "false"
+		/// @DnDArgument : "var" "advance_Room"
+		advance_Room = false;
+		break;
+
+	/// @DnDAction : YoYo Games.Switch.Case
+	/// @DnDVersion : 1
+	/// @DnDHash : 231F58CF
+	/// @DnDParent : 6021DCAA
+	/// @DnDArgument : "const" "game_2"
+	case game_2:
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 725E839B
+		/// @DnDParent : 231F58CF
 		/// @DnDArgument : "expr" "false"
 		/// @DnDArgument : "var" "advance_Room"
 		advance_Room = false;

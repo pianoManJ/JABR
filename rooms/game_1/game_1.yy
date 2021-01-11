@@ -24,9 +24,9 @@
   "creationCodeFile": "${project_dir}/rooms/game_room/RoomCreationCode.gml",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_7502ED83","path":"rooms/game_room/game_room.yy",},
-    {"name":"inst_48EE1C4","path":"rooms/game_room/game_room.yy",},
-    {"name":"inst_219CEA18","path":"rooms/game_room/game_room.yy",},
+    {"name":"inst_7502ED83","path":"rooms/game_1/game_1.yy",},
+    {"name":"inst_48EE1C4","path":"rooms/game_1/game_1.yy",},
+    {"name":"inst_219CEA18","path":"rooms/game_1/game_1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
@@ -54,7 +54,7 @@
     "path": "folders/Rooms.yy",
   },
   "resourceVersion": "1.0",
-  "name": "game_room",
+  "name": "game_1",
   "tags": [],
   "resourceType": "GMRoom",
 }

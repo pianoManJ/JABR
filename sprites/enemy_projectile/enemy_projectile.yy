@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"dfe0da1d-75db-4788-9471-da6a26ad8394","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "EnemySprites",
-    "path": "folders/Sprites/EnemySprites.yy",
+    "name": "ProjectileSprites",
+    "path": "folders/Sprites/EnemySprites/ProjectileSprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "enemy_projectile",

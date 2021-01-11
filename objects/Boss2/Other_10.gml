@@ -29,12 +29,13 @@ if(instance_exists(Player_obj))
 /// @DnDAction : YoYo Games.Random.Choose
 /// @DnDVersion : 1
 /// @DnDHash : 5E39B20F
-/// @DnDInput : 3
+/// @DnDInput : 4
 /// @DnDArgument : "var" "attack_type"
 /// @DnDArgument : "option" "1"
 /// @DnDArgument : "option_1" "2"
 /// @DnDArgument : "option_2" "3"
-attack_type = choose(1, 2, 3);
+/// @DnDArgument : "option_3" "4"
+attack_type = choose(1, 2, 3, 4);
 
 /// @DnDAction : YoYo Games.Switch.Switch
 /// @DnDVersion : 1
@@ -65,13 +66,48 @@ switch(l1325CCF3_0)
 	/// @DnDParent : 1325CCF3
 	/// @DnDArgument : "const" "2"
 	case 2:
+		/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 3456FED4
+		/// @DnDParent : 115F0D6D
+		/// @DnDArgument : "xpos_relative" "1"
+		/// @DnDArgument : "ypos_relative" "1"
+		/// @DnDArgument : "objectid" "tracker_projectile"
+		/// @DnDSaveInfo : "objectid" "tracker_projectile"
+		instance_create_layer(x + 0, y + 0, "Instances", tracker_projectile);
+		break;
+
+	/// @DnDAction : YoYo Games.Switch.Case
+	/// @DnDVersion : 1
+	/// @DnDHash : 1D018AFE
+	/// @DnDParent : 1325CCF3
+	/// @DnDArgument : "const" "3"
+	case 3:
 		/// @DnDAction : YoYo Games.Common.Execute_Script
 		/// @DnDVersion : 1.1
-		/// @DnDHash : 12638151
-		/// @DnDParent : 115F0D6D
+		/// @DnDHash : 75277D35
+		/// @DnDParent : 1D018AFE
+		/// @DnDArgument : "script" "ProjectileShot"
+		/// @DnDArgument : "arg" "towards_player-30"
+		/// @DnDSaveInfo : "script" "ProjectileShot"
+		script_execute(ProjectileShot, towards_player-30);
+	
+		/// @DnDAction : YoYo Games.Common.Execute_Script
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 515A52AA
+		/// @DnDParent : 1D018AFE
 		/// @DnDArgument : "script" "ProjectileShot"
 		/// @DnDArgument : "arg" "towards_player"
 		/// @DnDSaveInfo : "script" "ProjectileShot"
 		script_execute(ProjectileShot, towards_player);
+	
+		/// @DnDAction : YoYo Games.Common.Execute_Script
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 18ECE193
+		/// @DnDParent : 1D018AFE
+		/// @DnDArgument : "script" "ProjectileShot"
+		/// @DnDArgument : "arg" "towards_player+30"
+		/// @DnDSaveInfo : "script" "ProjectileShot"
+		script_execute(ProjectileShot, towards_player+30);
 		break;
 }

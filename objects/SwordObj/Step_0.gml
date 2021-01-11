@@ -15,14 +15,14 @@ y = Player_obj.y;
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
 /// @DnDHash : 1B3221D3
-/// @DnDArgument : "expr" "instance_exists(Boss1)"
-if(instance_exists(Boss1))
+/// @DnDArgument : "expr" "instance_exists(Boss)"
+if(instance_exists(Boss))
 {
 	/// @DnDAction : YoYo Games.Instances.Sprite_Rotate
 	/// @DnDVersion : 1
 	/// @DnDHash : 6C9FB56B
 	/// @DnDComment : //points sword in direction of enemy.
 	/// @DnDParent : 1B3221D3
-	/// @DnDArgument : "angle" "point_direction(x,y, Boss1.x, Boss1.y)-90"
-	image_angle = point_direction(x,y, Boss1.x, Boss1.y)-90;
+	/// @DnDArgument : "angle" "point_direction(x,y, Boss.x, Boss.y)-90"
+	image_angle = point_direction(x,y, Boss.x, Boss.y)-90;
 }
