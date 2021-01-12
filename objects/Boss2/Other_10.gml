@@ -29,13 +29,12 @@ if(instance_exists(Player_obj))
 /// @DnDAction : YoYo Games.Random.Choose
 /// @DnDVersion : 1
 /// @DnDHash : 5E39B20F
-/// @DnDInput : 4
+/// @DnDInput : 3
 /// @DnDArgument : "var" "attack_type"
 /// @DnDArgument : "option" "1"
 /// @DnDArgument : "option_1" "2"
 /// @DnDArgument : "option_2" "3"
-/// @DnDArgument : "option_3" "4"
-attack_type = choose(1, 2, 3, 4);
+attack_type = choose(1, 2, 3);
 
 /// @DnDAction : YoYo Games.Switch.Switch
 /// @DnDVersion : 1

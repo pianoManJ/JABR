@@ -25,6 +25,9 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":true,"eventNum":10,"eventType":7,"collisionObjectId":null,"parent":{"name":"Boss2","path":"objects/Boss2/Boss2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":2,"eventType":2,"collisionObjectId":null,"parent":{"name":"Boss2","path":"objects/Boss2/Boss2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Boss2","path":"objects/Boss2/Boss2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":1,"collisionObjectId":null,"parent":{"name":"Boss2","path":"objects/Boss2/Boss2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
