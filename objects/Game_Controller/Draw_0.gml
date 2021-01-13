@@ -49,9 +49,9 @@ switch(l6021DCAA_0)
 		/// @DnDVersion : 1
 		/// @DnDHash : 1B97BEC1
 		/// @DnDParent : 57D5E137
-		/// @DnDArgument : "expr" "false"
+		/// @DnDArgument : "expr" "true"
 		/// @DnDArgument : "var" "advance_Room"
-		advance_Room = false;
+		advance_Room = true;
 		break;
 
 	/// @DnDAction : YoYo Games.Switch.Case
@@ -64,9 +64,9 @@ switch(l6021DCAA_0)
 		/// @DnDVersion : 1
 		/// @DnDHash : 725E839B
 		/// @DnDParent : 231F58CF
-		/// @DnDArgument : "expr" "false"
+		/// @DnDArgument : "expr" "true"
 		/// @DnDArgument : "var" "advance_Room"
-		advance_Room = false;
+		advance_Room = true;
 		break;
 
 	/// @DnDAction : YoYo Games.Switch.Case

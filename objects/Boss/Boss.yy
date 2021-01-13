@@ -2,7 +2,10 @@
   "spriteId": null,
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "playerCollision",
+    "path": "sprites/playerCollision/playerCollision.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
