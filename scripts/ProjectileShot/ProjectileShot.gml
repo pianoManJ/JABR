@@ -2,9 +2,11 @@
 /// @DnDVersion : 1
 /// @DnDHash : 763FCA99
 /// @DnDComment : // Script assets have changed for v2.3.0 see$(13_10)// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+/// @DnDInput : 2
 /// @DnDArgument : "funcName" "ProjectileShot"
 /// @DnDArgument : "arg" "proj_direction"
-function ProjectileShot(proj_direction) 
+/// @DnDArgument : "arg_1" "proj_speed"
+function ProjectileShot(proj_direction, proj_speed) 
 {
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
@@ -25,4 +27,22 @@ function ProjectileShot(proj_direction)
 	/// @DnDArgument : "expr" "proj_direction"
 	/// @DnDArgument : "var" "newProjectile.direction"
 	newProjectile.direction = proj_direction;
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 46AFFB69
+	/// @DnDParent : 763FCA99
+	/// @DnDArgument : "var" "proj_speed"
+	/// @DnDArgument : "not" "1"
+	/// @DnDArgument : "value" "undefined"
+	if(!(proj_speed == undefined))
+	{
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 7EBE7650
+		/// @DnDParent : 46AFFB69
+		/// @DnDArgument : "expr" "proj_speed"
+		/// @DnDArgument : "var" "newProjectile.speed"
+		newProjectile.speed = proj_speed;
+	}
 }

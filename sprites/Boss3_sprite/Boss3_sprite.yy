@@ -25,8 +25,8 @@
   "gridY": 8,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"23f6d8f9-876f-489c-b052-62f7bf6c23a5","path":"sprites/Boss3_sprite/Boss3_sprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"23f6d8f9-876f-489c-b052-62f7bf6c23a5","path":"sprites/Boss3_sprite/Boss3_sprite.yy",},"LayerId":{"name":"c85f6282-4fbe-41c4-b6b1-af2012f905d9","path":"sprites/Boss3_sprite/Boss3_sprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"23f6d8f9-876f-489c-b052-62f7bf6c23a5","path":"sprites/Boss3_sprite/Boss3_sprite.yy",},"LayerId":{"name":"f4bbe63d-07ec-452e-9489-8e1f96b657a8","path":"sprites/Boss3_sprite/Boss3_sprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"23f6d8f9-876f-489c-b052-62f7bf6c23a5","path":"sprites/Boss3_sprite/Boss3_sprite.yy",},"LayerId":{"name":"c85f6282-4fbe-41c4-b6b1-af2012f905d9","path":"sprites/Boss3_sprite/Boss3_sprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"Boss3_sprite","path":"sprites/Boss3_sprite/Boss3_sprite.yy",},"resourceVersion":"1.0","name":"23f6d8f9-876f-489c-b052-62f7bf6c23a5","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
