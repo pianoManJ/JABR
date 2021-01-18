@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "RobotSprite",
-    "path": "sprites/RobotSprite/RobotSprite.yy",
+    "name": "RobotSpriteNew",
+    "path": "sprites/RobotSpriteNew/RobotSpriteNew.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,6 +28,7 @@
     {"isDnD":true,"eventNum":2,"eventType":2,"collisionObjectId":null,"parent":{"name":"Boss2","path":"objects/Boss2/Boss2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Boss2","path":"objects/Boss2/Boss2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":1,"collisionObjectId":null,"parent":{"name":"Boss2","path":"objects/Boss2/Boss2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"Boss2","path":"objects/Boss2/Boss2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
