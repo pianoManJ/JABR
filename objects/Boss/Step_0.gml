@@ -6,6 +6,14 @@ if(hit_points == 0)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
+	/// @DnDHash : 231CEF58
+	/// @DnDParent : 63EBEC38
+	/// @DnDArgument : "expr" ""Rest""
+	/// @DnDArgument : "var" "boss_state"
+	boss_state = "Rest";
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
 	/// @DnDHash : 394148D1
 	/// @DnDParent : 63EBEC38
 	/// @DnDArgument : "expr" "false"
