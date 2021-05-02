@@ -91,14 +91,39 @@ switch(l6021DCAA_0)
 		draw_set_halign(fa_center);
 		draw_set_valign(fa_top);
 	
-		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
-		/// @DnDHash : 74A5C825
+		/// @DnDHash : 26D46271
 		/// @DnDParent : 08D82A1C
-		/// @DnDArgument : "x" "513"
-		/// @DnDArgument : "y" "384"
-		/// @DnDArgument : "caption" ""Game Over""
-		draw_text_transformed(513, 384, string("Game Over") + "", 1, 1, 0);
+		/// @DnDArgument : "var" "bosses_defeated"
+		/// @DnDArgument : "value" "3"
+		if(bosses_defeated == 3)
+		{
+			/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+			/// @DnDVersion : 1
+			/// @DnDHash : 10575099
+			/// @DnDParent : 26D46271
+			/// @DnDArgument : "x" "513"
+			/// @DnDArgument : "y" "384"
+			/// @DnDArgument : "caption" ""Congratulations""
+			draw_text_transformed(513, 384, string("Congratulations") + "", 1, 1, 0);
+		}
+	
+		/// @DnDAction : YoYo Games.Common.Else
+		/// @DnDVersion : 1
+		/// @DnDHash : 603BAD5D
+		/// @DnDParent : 08D82A1C
+		else
+		{
+			/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+			/// @DnDVersion : 1
+			/// @DnDHash : 74A5C825
+			/// @DnDParent : 603BAD5D
+			/// @DnDArgument : "x" "513"
+			/// @DnDArgument : "y" "384"
+			/// @DnDArgument : "caption" ""Game Over""
+			draw_text_transformed(513, 384, string("Game Over") + "", 1, 1, 0);
+		}
 	
 		/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
 		/// @DnDVersion : 1
