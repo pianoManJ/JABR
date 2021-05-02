@@ -29,11 +29,30 @@ function Take_Damage()
 		/// @DnDArgument : "var" "playerHealth"
 		if(playerHealth == 0)
 		{
-			/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
-			/// @DnDHash : 3FFC3177
+			/// @DnDHash : 7E0BFB4E
 			/// @DnDParent : 17B805E6
-			instance_destroy();
+			/// @DnDArgument : "expr" "true"
+			/// @DnDArgument : "var" "dying"
+			dying = true;
+		
+			/// @DnDAction : YoYo Games.Instances.Set_Sprite
+			/// @DnDVersion : 1
+			/// @DnDHash : 6092A7A2
+			/// @DnDParent : 17B805E6
+			/// @DnDArgument : "spriteind" "player_death"
+			/// @DnDSaveInfo : "spriteind" "player_death"
+			sprite_index = player_death;
+			image_index = 0;
+		
+			/// @DnDAction : YoYo Games.Instances.Set_Alarm
+			/// @DnDVersion : 1
+			/// @DnDHash : 0BEAE15C
+			/// @DnDParent : 17B805E6
+			/// @DnDArgument : "steps" "48"
+			/// @DnDArgument : "alarm" "1"
+			alarm_set(1, 48);
 		}
 	
 		/// @DnDAction : YoYo Games.Common.Variable

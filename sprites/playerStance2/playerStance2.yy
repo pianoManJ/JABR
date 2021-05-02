@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"037cf688-ba1a-41ac-9d47-6823c289f123","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "PlayerStances",
     "path": "folders/Sprites/PlayerRelated/PlayerStances.yy",
