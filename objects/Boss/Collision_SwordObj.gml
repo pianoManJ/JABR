@@ -42,6 +42,7 @@ if(SwordObj.can_swing == false)
 		/// @DnDVersion : 1
 		/// @DnDHash : 6794E2A5
 		/// @DnDParent : 6F734FC9
-		alarm_set(0, 30);
+		/// @DnDArgument : "steps" "15"
+		alarm_set(0, 15);
 	}
 }

@@ -44,6 +44,7 @@
     {"id":{"name":"Boss2_path","path":"paths/Boss2_path/Boss2_path.yy",},"order":0,},
     {"id":{"name":"Health","path":"objects/Health/Health.yy",},"order":5,},
     {"id":{"name":"playerSword","path":"sprites/playerSword/playerSword.yy",},"order":2,},
+    {"id":{"name":"explosion_spr","path":"sprites/explosion_spr/explosion_spr.yy",},"order":7,},
     {"id":{"name":"game_1","path":"rooms/game_1/game_1.yy",},"order":1,},
   ],
   "Options": [

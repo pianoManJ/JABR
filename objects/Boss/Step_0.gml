@@ -4,11 +4,38 @@
 /// @DnDArgument : "var" "hit_points"
 if(hit_points == 0)
 {
-	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 5A287B82
+	/// @DnDHash : 394148D1
 	/// @DnDParent : 63EBEC38
-	instance_destroy();
+	/// @DnDArgument : "expr" "false"
+	/// @DnDArgument : "var" "is_vulnerable"
+	is_vulnerable = false;
+
+	/// @DnDAction : YoYo Games.Common.If_Expression
+	/// @DnDVersion : 1
+	/// @DnDHash : 6A287B4D
+	/// @DnDParent : 63EBEC38
+	/// @DnDArgument : "expr" "alarm[3] < 1"
+	if(alarm[3] < 1)
+	{
+		/// @DnDAction : YoYo Games.Instances.Set_Sprite
+		/// @DnDVersion : 1
+		/// @DnDHash : 676F9555
+		/// @DnDParent : 6A287B4D
+		/// @DnDArgument : "spriteind" "explosion_spr"
+		/// @DnDSaveInfo : "spriteind" "explosion_spr"
+		sprite_index = explosion_spr;
+		image_index = 0;
+	
+		/// @DnDAction : YoYo Games.Instances.Set_Alarm
+		/// @DnDVersion : 1
+		/// @DnDHash : 18A59A46
+		/// @DnDParent : 6A287B4D
+		/// @DnDArgument : "steps" "180"
+		/// @DnDArgument : "alarm" "3"
+		alarm_set(3, 180);
+	}
 }
 
 /// @DnDAction : YoYo Games.Switch.Switch
