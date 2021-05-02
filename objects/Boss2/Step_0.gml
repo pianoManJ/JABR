@@ -6,6 +6,14 @@ if(hit_points == 0)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
+	/// @DnDHash : 01262615
+	/// @DnDParent : 086A71D8
+	/// @DnDArgument : "expr" "spr_empty"
+	/// @DnDArgument : "var" "mask_index"
+	mask_index = spr_empty;
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
 	/// @DnDHash : 2B25CAD1
 	/// @DnDParent : 086A71D8
 	/// @DnDArgument : "expr" ""Rest""

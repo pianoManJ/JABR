@@ -5,6 +5,7 @@
     {"id":{"name":"Script5","path":"scripts/Script5/Script5.yy",},"order":3,},
     {"id":{"name":"LASER","path":"objects/LASER/LASER.yy",},"order":3,},
     {"id":{"name":"health_spr","path":"sprites/health_spr/health_spr.yy",},"order":5,},
+    {"id":{"name":"spr_empty","path":"sprites/spr_empty/spr_empty.yy",},"order":8,},
     {"id":{"name":"HealthSprite","path":"sprites/HealthSprite/HealthSprite.yy",},"order":1,},
     {"id":{"name":"playerStance2","path":"sprites/playerStance2/playerStance2.yy",},"order":1,},
     {"id":{"name":"Game_Controller","path":"objects/Game_Controller/Game_Controller.yy",},"order":6,},
