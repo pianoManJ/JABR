@@ -57,7 +57,6 @@ switch(l4B51E7D1_0)
 		/// @DnDArgument : "xpos_relative" "1"
 		/// @DnDArgument : "ypos_relative" "1"
 		/// @DnDArgument : "objectid" "LASER"
-		/// @DnDSaveInfo : "objectid" "LASER"
 		instance_create_layer(x + 0, y + 0, "Instances", LASER);
 		break;
 
@@ -100,7 +99,6 @@ switch(l4B51E7D1_0)
 		/// @DnDArgument : "script" "ProjectileShot"
 		/// @DnDArgument : "arg" "(dir+30)"
 		/// @DnDArgument : "arg_1" "6"
-		/// @DnDSaveInfo : "script" "ProjectileShot"
 		script_execute(ProjectileShot, (dir+30), 6);
 	
 		/// @DnDAction : YoYo Games.Common.Execute_Script
@@ -111,7 +109,6 @@ switch(l4B51E7D1_0)
 		/// @DnDArgument : "script" "ProjectileShot"
 		/// @DnDArgument : "arg" "(dir-30)"
 		/// @DnDArgument : "arg_1" "6"
-		/// @DnDSaveInfo : "script" "ProjectileShot"
 		script_execute(ProjectileShot, (dir-30), 6);
 	
 		/// @DnDAction : YoYo Games.Common.Execute_Script
@@ -120,7 +117,6 @@ switch(l4B51E7D1_0)
 		/// @DnDParent : 0B74C501
 		/// @DnDArgument : "script" "ProjectileShot"
 		/// @DnDArgument : "arg" "dir"
-		/// @DnDSaveInfo : "script" "ProjectileShot"
 		script_execute(ProjectileShot, dir);
 		break;
 
@@ -159,7 +155,6 @@ switch(l4B51E7D1_0)
 		/// @DnDParent : 0FFE95C1
 		/// @DnDArgument : "path" "Boss3_Path"
 		/// @DnDArgument : "speed" "5"
-		/// @DnDSaveInfo : "path" "Boss3_Path"
 		path_start(Boss3_Path, 5, path_action_stop, false);
 	
 		/// @DnDAction : YoYo Games.Instances.Set_Sprite
@@ -167,7 +162,6 @@ switch(l4B51E7D1_0)
 		/// @DnDHash : 7C770A55
 		/// @DnDParent : 0FFE95C1
 		/// @DnDArgument : "spriteind" "Boss3_spin"
-		/// @DnDSaveInfo : "spriteind" "Boss3_spin"
 		sprite_index = Boss3_spin;
 		image_index = 0;
 	

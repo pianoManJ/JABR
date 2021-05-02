@@ -48,7 +48,6 @@ if(gamepad_is_connected(l2C94A91C_0) && gamepad_button_check_pressed(l2C94A91C_0
 		/// @DnDHash : 392A4950
 		/// @DnDParent : 69362E55
 		/// @DnDArgument : "spriteind" "sword_swipe"
-		/// @DnDSaveInfo : "spriteind" "sword_swipe"
 		sprite_index = sword_swipe;
 		image_index = 0;
 	

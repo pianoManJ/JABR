@@ -44,7 +44,6 @@ switch(l49834DCC_0)
 		/// @DnDArgument : "x" "player_x"
 		/// @DnDArgument : "y" "player_y"
 		/// @DnDArgument : "sprite" "target"
-		/// @DnDSaveInfo : "sprite" "target"
 		draw_sprite(target, 0, player_x, player_y);
 		break;
 

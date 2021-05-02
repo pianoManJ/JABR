@@ -10,5 +10,4 @@ show_debug_message(string(Spd));
 /// @DnDArgument : "xpos_relative" "1"
 /// @DnDArgument : "ypos_relative" "1"
 /// @DnDArgument : "objectid" "SwordObj"
-/// @DnDSaveInfo : "objectid" "SwordObj"
 instance_create_layer(x + 0, y + 0, "Instances", SwordObj);

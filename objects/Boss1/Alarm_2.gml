@@ -14,7 +14,6 @@ if(consecutive_shots > 0)
 	/// @DnDArgument : "var" "newProjectile"
 	/// @DnDArgument : "var_temp" "1"
 	/// @DnDArgument : "objectid" "enem_projectile"
-	/// @DnDSaveInfo : "objectid" "enem_projectile"
 	var newProjectile = instance_create_layer(x + 0, y + 0, "Instances", enem_projectile);
 
 	/// @DnDAction : YoYo Games.Common.If_Expression

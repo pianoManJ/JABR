@@ -22,7 +22,6 @@ if(path_index == -1)
 	/// @DnDHash : 01F27581
 	/// @DnDParent : 4A9C73E9
 	/// @DnDArgument : "spriteind" "Boss3_sprite"
-	/// @DnDSaveInfo : "spriteind" "Boss3_sprite"
 	sprite_index = Boss3_sprite;
 	image_index = 0;
 }

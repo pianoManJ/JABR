@@ -2,7 +2,6 @@
 /// @DnDVersion : 1
 /// @DnDHash : 13BD9FC7
 /// @DnDArgument : "spriteind" "playerSword"
-/// @DnDSaveInfo : "spriteind" "playerSword"
 sprite_index = playerSword;
 image_index = 0;
 

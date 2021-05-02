@@ -54,7 +54,6 @@ switch(l4062E137_0)
 		/// @DnDParent : 58854FE2
 		/// @DnDArgument : "script" "ProjectileShot"
 		/// @DnDArgument : "arg" "towards_player"
-		/// @DnDSaveInfo : "script" "ProjectileShot"
 		script_execute(ProjectileShot, towards_player);
 		break;
 

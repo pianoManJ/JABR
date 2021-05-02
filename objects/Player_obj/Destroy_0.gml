@@ -8,5 +8,4 @@ with(Health) instance_destroy();
 /// @DnDVersion : 1
 /// @DnDHash : 562BED98
 /// @DnDArgument : "room" "game_over"
-/// @DnDSaveInfo : "room" "game_over"
 room_goto(game_over);

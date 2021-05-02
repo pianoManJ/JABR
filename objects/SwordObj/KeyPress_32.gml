@@ -10,7 +10,6 @@ if(can_swing == true)
 	/// @DnDHash : 0B1B8106
 	/// @DnDParent : 7AA3C170
 	/// @DnDArgument : "spriteind" "sword_swipe"
-	/// @DnDSaveInfo : "spriteind" "sword_swipe"
 	sprite_index = sword_swipe;
 	image_index = 0;
 

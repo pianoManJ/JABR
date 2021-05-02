@@ -32,6 +32,7 @@
     {"id":{"name":"sword_swipe","path":"sprites/sword_swipe/sword_swipe.yy",},"order":3,},
     {"id":{"name":"RobotSprite","path":"sprites/RobotSprite/RobotSprite.yy",},"order":0,},
     {"id":{"name":"AWSDcontrols","path":"scripts/AWSDcontrols/AWSDcontrols.yy",},"order":1,},
+    {"id":{"name":"nextRoom","path":"scripts/nextRoom/nextRoom.yy",},"order":4,},
     {"id":{"name":"PlayerFaceManual","path":"scripts/PlayerFaceManual/PlayerFaceManual.yy",},"order":3,},
     {"id":{"name":"Take_Damage","path":"scripts/Take_Damage/Take_Damage.yy",},"order":4,},
     {"id":{"name":"SwordObj","path":"objects/SwordObj/SwordObj.yy",},"order":2,},
@@ -100,7 +101,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.1.542",
+    "IDEVersion": "2.3.2.560",
   },
   "resourceVersion": "1.4",
   "name": "topDownProjRem",
