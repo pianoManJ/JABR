@@ -23,6 +23,7 @@
     {"id":{"name":"Boss3_Path","path":"paths/Boss3_Path/Boss3_Path.yy",},"order":1,},
     {"id":{"name":"enemy_projectile","path":"sprites/enemy_projectile/enemy_projectile.yy",},"order":0,},
     {"id":{"name":"Laser_beam","path":"sprites/Laser_beam/Laser_beam.yy",},"order":0,},
+    {"id":{"name":"swipe","path":"sounds/swipe/swipe.yy",},"order":0,},
     {"id":{"name":"Boss3_spin","path":"sprites/Boss3_spin/Boss3_spin.yy",},"order":1,},
     {"id":{"name":"playerCollision","path":"sprites/playerCollision/playerCollision.yy",},"order":1,},
     {"id":{"name":"game_start","path":"rooms/game_start/game_start.yy",},"order":0,},

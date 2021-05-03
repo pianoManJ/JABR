@@ -5,11 +5,20 @@
 /// @DnDArgument : "value" "true"
 if(can_swing == true)
 {
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 2283F6BE
+	/// @DnDParent : 7AA3C170
+	/// @DnDArgument : "soundid" "swipe"
+	/// @DnDSaveInfo : "soundid" "swipe"
+	audio_play_sound(swipe, 0, 0);
+
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
 	/// @DnDHash : 0B1B8106
 	/// @DnDParent : 7AA3C170
 	/// @DnDArgument : "spriteind" "sword_swipe"
+	/// @DnDSaveInfo : "spriteind" "sword_swipe"
 	sprite_index = sword_swipe;
 	image_index = 0;
 
