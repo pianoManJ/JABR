@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 12B19A58
-/// @DnDArgument : "var" "advance_Room"
-/// @DnDArgument : "value" "true"
-if(advance_Room == true)
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "room_first"
+if(room == room_first)
 {
 	/// @DnDAction : YoYo Games.Rooms.Next_Room
 	/// @DnDVersion : 1
