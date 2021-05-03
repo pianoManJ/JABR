@@ -37,6 +37,28 @@ switch(l6021DCAA_0)
 		/// @DnDArgument : "yscale" "1.5"
 		/// @DnDArgument : "caption" ""Just Another Boss Rush ""
 		draw_text_transformed(513, 384, string("Just Another Boss Rush ") + "", 1.5, 1.5, 0);
+	
+		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+		/// @DnDVersion : 1
+		/// @DnDHash : 562B468D
+		/// @DnDParent : 3A41F543
+		/// @DnDArgument : "x" "513"
+		/// @DnDArgument : "y" "424"
+		/// @DnDArgument : "xscale" "1.5"
+		/// @DnDArgument : "yscale" "1.5"
+		/// @DnDArgument : "caption" ""Start: Enter ""
+		draw_text_transformed(513, 424, string("Start: Enter ") + "", 1.5, 1.5, 0);
+	
+		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+		/// @DnDVersion : 1
+		/// @DnDHash : 20CE8294
+		/// @DnDParent : 3A41F543
+		/// @DnDArgument : "x" "513"
+		/// @DnDArgument : "y" "464"
+		/// @DnDArgument : "xscale" "1.5"
+		/// @DnDArgument : "yscale" "1.5"
+		/// @DnDArgument : "caption" ""Attack:  Spacebar""
+		draw_text_transformed(513, 464, string("Attack:  Spacebar") + "", 1.5, 1.5, 0);
 		break;
 
 	/// @DnDAction : YoYo Games.Switch.Case
